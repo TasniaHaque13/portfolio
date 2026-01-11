@@ -8,14 +8,14 @@
 body {
     font-family: 'Proxima Nova', 'Montserrat', 'Poppins', 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    background-color: #0f1a14;
-    color: #f3f0e6;
+    background-color: #0d1912;
+    color: #fefefe;
     scroll-behavior: smooth;
 }
 
 /* NAVIGATION BAR */
 .navbar {
-    background-color: #12211a;
+    background-color: #133b24;
     box-shadow: 0 2px 10px rgba(0,0,0,0.35);
     position: fixed;
     width: 100%;
@@ -36,7 +36,7 @@ body {
 .nav-logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #7bd7b1;
+    color: #8ec462;
     letter-spacing: 1px;
 }
 
@@ -57,7 +57,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #7bd7b1;
+    color: #5ba3d0;
 }
 
 .nav-link::after {
@@ -67,7 +67,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #7bd7b1;
+    background-color: #5ba3d0;
     transition: width 0.3s ease;
 }
 
@@ -116,7 +116,7 @@ body {
 /* HERO SECTION */
 .hero-section {
     padding: 0;
-    background: linear-gradient(135deg, #123022 0%, #0d1f16 100%);
+    background: linear-gradient(135deg, #065729 0%, #334774 100%);
     color: white;
     border-radius: 0;
     margin: 0;
@@ -143,7 +143,7 @@ body {
     height: 400px;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 15px 40px rgba(123, 215, 177, 0.25);
+    box-shadow: 0 15px 40px rgba(142, 196, 98, 0.3);
     border: none;
 }
 
@@ -162,12 +162,12 @@ body {
 .hero-text .subtitle {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: #9dd7b4;
+    color: #a3d6b8;
     font-weight: 400;
 }
 
 .hero-text p {
-    color: #d7dfd3;
+    color: #dce5d8;
     margin-bottom: 15px;
     line-height: 1.8;
 }
@@ -188,36 +188,36 @@ body {
 }
 
 .btn-primary {
-    background-color: #7bd7b1;
-    color: #0f1a14;
+    background-color: #8ec462;
+    color: #0d1912;
 }
 
 .btn-primary:hover {
-    background-color: #99e0c3;
+    background-color: #a3d47b;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(123, 215, 177, 0.4);
+    box-shadow: 0 5px 15px rgba(142, 196, 98, 0.4);
 }
 
 .btn-secondary {
     background-color: transparent;
     color: white;
-    border: 2px solid #7bd7b1;
+    border: 2px solid #5ba3d0;
 }
 
 .btn-secondary:hover {
-    background-color: #7bd7b1;
-    color: #0f1a14;
+    background-color: #5ba3d0;
+    color: #0d1912;
     transform: translateY(-2px);
 }
 
 /* SECTIONS */
 .section {
     padding: 60px 20px;
-    background-color: #1e2d23;
+    background-color: #1a2b20;
     margin: 20px 0;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.25);
-    color: #f3f0e6;
+    color: #f0f4ed;
 }
 
 /* TYPOGRAPHY */
@@ -226,25 +226,25 @@ h2 {
     color: #f8f6ed;
     margin-bottom: 30px;
     padding-bottom: 10px;
-    border-bottom: 3px solid #7bd7b1;
+    border-bottom: 3px solid #8ec462;
     display: inline-block;
 }
 
 h2 i {
     margin-right: 10px;
-    color: #7bd7b1;
+    color: #8ec462;
 }
 
 h3 {
     font-size: 1.4rem;
-    color: #9dd7b4;
+    color: #a3d6b8;
     margin-top: 25px;
     margin-bottom: 15px;
 }
 
 h4 {
     font-size: 1.1rem;
-    color: #b6ddc7;
+    color: #7bb5c7;
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -268,18 +268,18 @@ h4 {
     content: "▸";
     position: absolute;
     left: 0;
-    color: #7bd7b1;
+    color: #8ec462;
     font-weight: bold;
 }
 
 p {
     margin-bottom: 15px;
     line-height: 1.8;
-    color: #d7dfd3;
+    color: #dce5d8;
 }
 
 strong {
-    color: #7bd7b1;
+    color: #8ec462;
 }
 
 /* SKILLS SECTION */
@@ -291,14 +291,14 @@ strong {
 }
 
 .skill-category {
-    background-color: #18261e;
+    background-color: #16241c;
     padding: 25px;
     border-radius: 10px;
-    border-left: 4px solid #7bd7b1;
+    border-left: 4px solid #8ec462;
 }
 
 .skill-category h3 {
-    color: #7bd7b1;
+    color: #8ec462;
     margin-top: 0;
 }
 
@@ -314,31 +314,31 @@ strong {
 }
 
 .tag {
-    background-color: #0f1a14;
-    color: #cde5d6;
+    background-color: #0d1912;
+    color: #d2e8dc;
     padding: 8px 15px;
     border-radius: 20px;
     font-size: 0.9rem;
-    border: 1px solid #7bd7b1;
+    border: 1px solid #5ba3d0;
     transition: all 0.3s ease;
 }
 
 .tag:hover {
-    background-color: #7bd7b1;
-    color: #0f1a14;
-    border-color: #7bd7b1;
+    background-color: #5ba3d0;
+    color: #0d1912;
+    border-color: #5ba3d0;
     transform: translateY(-2px);
 }
 
 /* CONTACT SECTION */
 .contact-section {
-    background: linear-gradient(135deg, #123022 0%, #0d1f16 100%);
+    background: linear-gradient(135deg, #1a3025 0%, #0f2418 100%);
     color: white;
 }
 
 .contact-section h2 {
     color: #ffffff;
-    border-bottom-color: #7bd7b1;
+    border-bottom-color: #8ec462;
 }
 
 .contact-content {
@@ -355,20 +355,20 @@ strong {
     display: flex;
     align-items: flex-start;
     gap: 15px;
-    background-color: rgba(123, 215, 177, 0.12);
+    background-color: rgba(91, 163, 208, 0.12);
     padding: 20px;
     border-radius: 10px;
     transition: all 0.3s ease;
 }
 
 .contact-item:hover {
-    background-color: rgba(123, 215, 177, 0.2);
+    background-color: rgba(91, 163, 208, 0.2);
     transform: translateY(-5px);
 }
 
 .contact-item i {
     font-size: 2rem;
-    color: #7bd7b1;
+    color: #5ba3d0;
 }
 
 .contact-item h4 {
@@ -378,28 +378,28 @@ strong {
 
 .contact-item p {
     margin: 0;
-    color: #cde5d6;
+    color: #d2e8dc;
 }
 
 .contact-item a {
-    color: #7bd7b1;
+    color: #5ba3d0;
     text-decoration: none;
-    border-bottom: 1px solid rgba(123, 215, 177, 0.5);
+    border-bottom: 1px solid rgba(91, 163, 208, 0.5);
     transition: border-color 0.3s ease;
 }
 
 .contact-item a:hover {
-    border-bottom-color: #99e0c3;
+    border-bottom-color: #7bb5e3;
 }
 
 /* FOOTER */
 footer {
-    background-color: #0f1a14;
+    background-color: #0d1912;
     color: #c8d0c4;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-    border-top: 1px solid #22352a;
+    border-top: 1px solid #1f3226;
 }
 
 /* RESPONSIVE DESIGN */
@@ -413,7 +413,7 @@ footer {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background-color: #12211a;
+        background-color: #162419;
         width: 100%;
         text-align: center;
         transition: 0.3s;
